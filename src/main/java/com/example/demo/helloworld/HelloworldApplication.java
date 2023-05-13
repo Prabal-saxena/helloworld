@@ -8,7 +8,7 @@ public class HelloworldApplication {
 
 	public static void main(String[] args) {
 
-		System.out.println("Prabal's Hello World");
+		System.out.println("Prabal's Hello World app is building on GitHub Actions now.");
 		SpringApplication.run(HelloworldApplication.class, args);
 	}
 
