@@ -25,15 +25,6 @@ jobs:
       - name: Step 4- List the environment Variables
         run: env
 
-      - name: Create a Artifact folder
-        run: mkdir target
-
-      - name: Add artifacts to publish to the temp folder
-        run: |
-          cd target
-          echo classes
-          cd..
-
       - name: use the upload artifact Github action
         uses: actions/upload-artifact@v2
         with:
