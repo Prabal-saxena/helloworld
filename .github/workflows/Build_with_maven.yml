@@ -1,4 +1,4 @@
-name: GitHub Actions Maven Build Example
+name: GitHub Actions Maven Build
 
 on:
   push:
