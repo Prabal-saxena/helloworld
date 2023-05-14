@@ -28,8 +28,6 @@ jobs:
         uses: actions/setup-java@v2
         with: 
           java-version: 1.8
-          server-id: github
-          settings-path: ${{ github.workspace }}
           
       - name: Step 3- Build with Maven
         run: mvn clean package -DskipTests --file pom.xml
