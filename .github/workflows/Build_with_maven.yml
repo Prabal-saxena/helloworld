@@ -25,10 +25,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Step 2- Set up JDK 1.8
-        uses: actions/setup-java@v2
+        uses: actions/setup-java@v1
         with: 
           java-version: 1.8
-          distribution: adopt
           
       - name: Step 3- Build with Maven
         run: mvn clean package -DskipTests --file pom.xml
