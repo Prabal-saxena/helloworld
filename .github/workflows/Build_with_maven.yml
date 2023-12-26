@@ -15,7 +15,7 @@ env:
 jobs:
 
   setup-build-publish-deploy:
-    if: github.actor == 'prabal-saxena-db'
+    if: github.actor == 'Prabal-saxena'
     name: Setup Build Publish Deploy
     # The type of the runner that the job will run on
     runs-on: windows-latest
