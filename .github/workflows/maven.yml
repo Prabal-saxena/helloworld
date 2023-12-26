@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   build:
-
+    if: contains('[Prabal-saxena]',github.actor)
     runs-on: ubuntu-latest
 
     steps:
