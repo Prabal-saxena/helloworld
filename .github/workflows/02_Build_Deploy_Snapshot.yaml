@@ -13,8 +13,8 @@ jobs:
     name: Build Snapshot
     uses: Prabal-saxena/common-ci-cd-workflows/.github/workflows/build-deploy-snapshot.yaml@main
     with:
-      APPLICATION_NAME: "hellowworld"
-      RELEASE: "hellowworld"
+      APPLICATION_NAME: "helloworld"
+      RELEASE: "helloworld"
       IMAGE_TAG: ""
       ARTIFACTORY_URL: "us-central1-docker.pkg.dev/noble-linker-471623-s6"
       ARTIFACTORY_NAMESPACE: "onlineliquorservicesartifactory"
