@@ -62,11 +62,11 @@ service:
 # Resource Limits
 resources:
   limits:
-    cpu: "1"
-    memory: 512Mi
-  requests:
-    cpu: "500m"
+    cpu: "2m"
     memory: 256Mi
+  requests:
+    cpu: "100m"
+    memory: 128Mi
 nodeSelector: { }
 tolerations: [ ]
 affinity: { }
