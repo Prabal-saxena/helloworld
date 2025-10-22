@@ -14,9 +14,9 @@ release: "helloworld"
 serviceName: "helloworld"
 
 # ServiceAccount
-ksaServiceAccount: product-service-sa
+ksaServiceAccount: helloworld-sa
 gcpServiceAccount: product-service-sa@noble-linker-471623-s6.iam.gserviceaccount.com
-cicdKsaServiceAccount: ci-cd-sa
+cicdKsaServiceAccount: helloworld-ci-cd-sa
 cicdGcpServiceAccount: ci-cd-sa@noble-linker-471623-s6.iam.gserviceaccount.com
 
 datasource:
