@@ -15,5 +15,6 @@ public class Home {
     @PostConstruct
     public void printPassword(){
         System.out.println(dbPassword);
+        System.out.println("Password from Secrets");
     }
 }
